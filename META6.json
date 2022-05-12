@@ -1,0 +1,17 @@
+{
+  "auth": "zef:markldevine",
+  "authors": [ "Mark Devine <mark@markdevine.com>" ],
+  "depends": [ "Redis" ],
+  "description": "Redis::Client::SelectServerIP - From a list of Redis IPs, establish a connection",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Redis::Client::SelectServerIP",
+  "perl": "6",
+  "provides": {
+    "Redis::Client::SelectServerIP": "lib/Redis/Client/SelectServerIP.rakumod"
+  },
+  "resources": [],
+  "source-url": "https://github.com/markldevine/raku-Redis-Client-SelectServerIP.git",
+  "tags": [ "Redis" ],
+  "version": "0.0.1"
+}
