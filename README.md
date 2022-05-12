@@ -6,7 +6,7 @@ SYNOPSIS
 ========
 
     my $redis = Redis::Client::SelectServerIP.new.connection;
-    .say for $redis.smembers('fg:st:lc:tst').list.sort({ $^a.fc cmp $^b.fc });
+    .say for $redis.smembers('set-key').list.sort({ $^a.fc cmp $^b.fc });
 
 AUTHOR
 ======
